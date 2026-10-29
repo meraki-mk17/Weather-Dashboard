@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        <br>
+    
+        <div class="search-bar">
+           <input type="text"  placeholder="Search city..." />
+           <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="weather-card">
+
+            <div class="weather-info">
+                <h2>Kozhikode</h2>
+
+                <h1 class="temp">28°C</h1>
+
+                <div class="details">
+                    <span>💧 70%</span>
+                    <span>🏎️ 10 km/h</span>
+                </div>
+
+                <button class="fav-btn">💗Add to favorite</button>
+            </div>
+            
+            <div class="weather-icon">
+                ⛅
+            </div>    
+                
+        </div>
+
+        <h2 class="title">5-Day Forecast</h2>
+
+        <div class="forecast-cards">
+
+            <div class="forecast-card">
+                <h3>Mon</h3>
+                <div>☀️</div>
+                <p>30°C</p>
+            </div>
+            
+            <div class="forecast-card">
+                <h3>Tue</h3>
+                <div>🌧️</div>
+                <p>25°C</p>
+            </div>
+            
+            <div class="forecast-card">
+                <h3>Wed</h3>
+                <div>⛅</div>
+                <p>28°C</p>
+            </div>
+            
+            <div class="forecast-card">
+                <h3>Thu</h3>
+                <div>🌩️</div>
+                <p>22°C</p>
+            </div>
+            
+            <div class="forecast-card">
+                <h3>Fri</h3>
+                <div>☀️</div>
+                <p>29°C</p>
+            </div>
+
+        </div>
+
+        <h2 class="title">Favorites</h2>
+
+        <div class="favorites"></div>
+    </div>      
+ <script src="app.js"></script> 
+</body>
+</html>
